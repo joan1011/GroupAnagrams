@@ -1,5 +1,5 @@
-#O(w*n*log(n) + n* w*log(w)) time | O(wn) space
-#    O(wn) space || w*n*log(n)
+#O(w*n*log(n)) time | O(wn) space
+
 def groupAnagrams(words):
     anagrams = {}
     for word in words:
